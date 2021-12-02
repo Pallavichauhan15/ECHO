@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Arkadev Banerjee, Sourashis Paul, Indrajit Banerjee, Aman Kumar Gupta, Nilanjan Roy">
+    <link rel="shortcut icon" href="Home/favicon.ico" />
+
+    <title>E C H O : Homepage</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Home/stylehome.css">
+    <link rel="stylesheet" type="text/css" href="Home/stylebutton.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="Home/javascript.js"></script>
+    <script src="Home/javascript2.js"></script>
+    <script src="Home/scriptbutton.js"></script>
+    <meta name="theme-color" content="#563d7c">
+
+    
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            padding: 0px !important;
+        }
+
+        nav {
+            padding-top: 5px !important;
+            padding-bottom: 10px !important;
+        }
+
+        .btn-lg,
+        .btn-primary {
+            text-decoration: none !important;
+        }
+
+        h1,
+        h2,
+        p {
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        .text-capitalize {
+            font-weight: bold;
+        }
+
+        .btn-lg {
+            padding-top: 12px;
+        }
+
+        li {
+            padding-left: 20px;
+        }
+
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                display: flex;
+                height: 100vh;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                background: #ffffff;
+            }
+
+            .musicimg {
+                padding-top: 50px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .carousel-item {
+            height: 100vh !important;
+            min-height: 350px !important;
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai', cursive;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            margin-left: 380px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(214, 160, 0);
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 66%;
+            border-radius: 28px;
+        }
+
+        .form-group input {
+            font-family: 'Baloo Bhai', cursive;
+            text-align: center;
+            display: block;
+            width: 508px;
+            padding: 1px;
+            border: 2px solid black;
+            margin-left: 380px;
+            font-size: 20px;
+            border-radius: 8px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 58%;
+
+        }
+
+        input[type="radio"] {
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+
+        .genderr {
+            margin-top: 30px;
+            margin-left: 265px;
+            font-size: 20px;
+        }
+
+        .check_box {
+            margin-top: 30px;
+            margin-left: 265px;
+            font-size: 20px;
+        }
+
+
+        .word {
+            margin-left: 440px;
+            font-size: 19px;
+        }
+
+        .word1 {
+            margin-left: 490px;
+            font-size: 20px;
+        }
+
+        .ayush {
+            margin-left: 386px;
+        }
+
+        
+    </style>
+    <link href="Home/carousel.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Nav Bar Begins here -->
+
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top naveffect"
+            style="padding: 0px; font-weight: bold; font-family: monospace; font-size: 18px;">
+            <a class="navbar-brand" href="#" style="font-size:24px; margin-left: 20px;"><img src="Home/logo.png"
+                    style="padding-right: 20px;height:60px">E C H O</a>
+            <button class="navbar-toggler bg-grey navbar-dark" type="button" data-toggle="collapse"
+                data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" style="padding-right: 50px;" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link activated top-menu" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link next-menu-1" href="#About">Information <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link next-menu-2" href="#learn">Learn <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link next-menu-3" href="#music">Music <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link next-menu-4" href="#video">Videos <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link next-menu-5" href="#about-us">Login<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link next-menu-6" href="#contact">Contact Us <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main" style="height: 100%!important;">
+
+        <!-- Carousel Begins Here -->
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Home/car1.jpg" style="height: 100vh!important;min-height: 350px!important;">
+                    <div class="container">
+                        <div class="carousel-caption text-left">
+                            <h1>Learning Facility</h1>
+                            <p>The Website Provides You Fantastic Learning Experience through Lots of Cool Features,
+                                You'll Remember Forever. There are Lot's of Exciting Things To Do. Happy Learning.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Home/car5.jpg" style="height: 100vh!important;min-height: 100px!important;">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Music Therapy</h1>
+                            <p>Our Developers Always Cares About Your Mental Health. This Website Provides Fantasic
+                                Music Which Can Have A Theraputical Effects In You. Mental Health's First!!!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="Home/car3.jpg" style="height: 100vh!important;min-height: 350px!important;">
+                    <div class="container">
+                        <div class="carousel-caption text-left">
+                            <h1>Conceptual Videos</h1>
+                            <p>The Website Will Also Provide You Various Video Lectures Available Throughout The
+                                Internet. We All Have Collected This For You. We Hope You'll Have A Nice Time Watching
+                                Those!!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Home/car6.jpg" style="height: 100vh!important;min-height: 100px!important;">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Life Changing Videos</h1>
+                            <p>Differently Abled People For Future!!!!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Home/car7.jpg" style="height: 100vh!important;min-height: 100px!important;">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Carosel Ends -->
+
+
+        <!--Info Scetion begins here-->
+
+        <div class="container marketing">
+            <hr class="featurette-divider" id="About">
+            <div>
+                <section>
+                    <div class="container-fluid">
+                        <h1 class="text-center text-capitalize pt-5">Information</h1>
+                        <hr class="w-25 mx-auto pt-5">
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <img src="Home/c1.jpg" style="width: 100%;height: 100%;">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <h2 class="featurette-heading">Every Child Is Special !!<span class="text-muted"></span>
+                            </h2>
+                            <p style="font-size: 20px;">We are trying for the overall development of physically
+                                challenged kids.In case of learning phase they face various type of problems like
+                                various websites are out there, they are only made for the normal kids, but we still
+                                do not have any spécialised website for these innocent kids. We will be working on
+                                developing several learning facilities like interactive quiz, notes, and music therapy
+                                for their mental wellbeing. During the current situation
+                                of pandemic, their learning system has been affected, so by several online meeting their
+                                learning may not help, in that case, this website will help overcome these problems. We
+                                are trying for the overall development of
+                                physically challenged kids.In case of learning phase they face various type of problems
+                                like various websites are out there, they are only made for the normal kids, but we
+                                still do not have any spécialised website for these
+                                innocent kids. We will be working on developing several learning facilities like
+                                interactive quiz, notes, and music therapy for their mental wellbeing. During the
+                                current situation of pandemic, their learning system has
+                                been affected, so by several online meeting their learning may not help, in that case,
+                                this website will help overcome these problems.
+                            </p>
+                            <p style="margin-top: 20px;"><a class="btn-lg btn-primary" href="Information/Info.html"
+                                    role="button">Visit
+                                    Page &raquo;</a></p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <hr class="featurette-divider" id="learn">
+
+            <!-- Learn Section Begins -->
+
+            <div class="container-fluid" style="padding-top: 50px!important">
+                <h1 class="text-center text-capitalize pt-5" style="padding-top: 0px!important">Learn</h1>
+                <hr class="w-25 mx-auto pt-5">
+            </div>
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2" style="padding-bottom: 50px!important;">
+                    <h2 class="featurette-heading">The human spirit is one of ability,Hunger of learning, perseverance
+                        and courage that no disability can steal away.<span class="text-muted"></span></h2>
+                    <p class="lead">Here you can go through notes of various subjects and attempt for quizzes of
+                        different levels. There is a calculator to solve mathematics problems for you guys too & you can
+                        learn by playing these audio book. Here are various types
+                        of subjective videos to learn by visualisation & to achieve more. </p>
+                    <p style="margin-top: 20px;"><a class="btn-lg btn-primary" href="Learn/Learn.html" role="button"
+                            style="padding-top: 12px;">Visit Page &raquo;</a></p>
+                </div>
+                <div class="col-md-5 order-md-1" style="padding-top: 120px;">
+                    <img src="Home/12.jpg" style="width: 100%;height: auto;">
+                </div>
+            </div>
+
+            <hr class="featurette-divider" id="music">
+
+            <!-- Music Section Begins -->
+
+            <div class="row featurette">
+                <div class="container-fluid" style="padding-top: 50px!important">
+                    <h1 class="text-center text-capitalize pt-5" style="padding-top: 0px!important">Music</h1>
+                    <hr class="w-25 mx-auto pt-5">
+                </div>
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Music education can help spark a disabled child's imagination or
+                        ignite a lifetime of passion.<span class="text-muted"></span></h2>
+                    <p class="lead"> Here is a stock of soothing music & rhymes for learners as music develops
+                        analytical thinking. </p>
+                    <p style="margin-top: 20px;"><a class="btn-lg btn-primary" href="Music/music.html"
+                            role="button">Visit Page
+                            &raquo;</a></p>
+                </div>
+                <div class="col-md-5 musicimg" style="padding-top: 120px;">
+                    <img src="Home/1.jpg" style="width: 100%;height: auto;">
+                </div>
+            </div>
+
+            <hr class="featurette-divider" id="video">
+
+            <!-- Video Section Begins -->
+
+            <div class="row featurette">
+                <div class="container-fluid" style="padding-top: 50px!important">
+                    <h1 class="text-center text-capitalize pt-5"
+                        style="padding-top: 0px!important; padding-bottom: 0px!important;">Videos</h1>
+                    <hr class="w-25 mx-auto pt-5">
+                </div>
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">All our dreams can come true, if we have the courage to pursue them.
+                        <span class="text-muted"></span>
+                    </h2>
+                    <p class="lead">Here are some inspiring videos of some differently abled kids who believed in
+                        themselves and achieved their dreams.</p>
+                    <p style="margin-top: 20px;"><a class="btn-lg btn-primary" href="Video/mvideo.html"
+                            role="button">Visit
+                            Page &raquo;</a></p>
+                </div>
+                <div class="col-md-5 order-md-1" style="padding-top: 120px;">
+                    <img src="Home/11.jpeg" style="width: 100%;height: auto;">
+                </div>
+            </div>
+
+            <hr class="featurette-divider" id="about-us">
+
+            <!--Login Section Begins -->
+
+            <id="aboutUs" class="container-fluid">
+                <div class="container-fluid" style="padding-top: 50px!important">
+                    <h1 class=ayush>Login</h1>
+                    <hr class="w-25 mx-auto pt-5">
+                </div>
+                <div>
+                    <div class="tanya">
+                        <center>
+                            <form id="myform" method="POST" action="/sign_up">
+                                <div class="form-group">
+                                    <p class="word">Enter the Firstname</p>
+                                    <center><input type="text" id="fname" name="firstName" value="firstName"></center> <br />
+                                </div>
+                                <div class="form-group">
+                                    <p class="word">Enter the Lastname</p>
+                                    <input type="text" id="lname" name="lastName" value="lastName"> <br />
+                                </div>
+                                <div class="form-group">
+                                    <p class="word">Enter the E-mail</p>
+                                    <input type="email" id="mail" name="email" value="email"> <br />
+                                </div>
+
+                                <div class="form-group">
+                                    <p class="word">Enter the DOB</p>
+                                    <input type="date" id="birth" name="dob" value="dob"> <br />
+                                </div>
+
+                                <div class="form-group">
+                                    <p class="word1">Age</p>
+                                    <input type="text" id="age" name="age" value="age"> <br />
+                                </div>
+
+                                <div class="form-group">
+                                    <p class="word">Contact number</p>
+                                    <input type="text" id="num" name="contact" value="contact"> <br />
+                                </div>
+
+
+
+                                <div class="genderr">
+                                    Gender:
+                                    <input type="radio" name="gender" value="male"> Male
+                                    <input type="radio" name="gender" value="female"> Female <br>
+                                </div>
+                                <br><br>
+
+                                <div class="form-group">
+                                    <p class="word">Enter the City</p>
+                                    <input type="text" id="city" name="city" value="city"> <br />
+                                </div>
+
+                                <div class="form-group">
+                                    <p class="word">Enter the Country</p>
+                                    <input type="text" id="coun" name="country" value="country"> <br />
+                                </div>
+
+
+                                <div class="check_box">
+                                    <input type="checkbox" id="terms" name="agree" value="I Agree">
+                                    <label for="I Agree"> I Agree to the terms</label><br>
+                                </div
+
+                                <br>
+                                <br>
+                                <button class="btn">Submit</button>
+
+                            </form>
+                        </center>
+                    </div>
+
+                    <script>
+                        $('input:text').click(
+                        function(){
+                        $(this).val('');
+                         });
+                    </script>
+                    <!-- <script>
+                        document.getElementById("myform").onsubmit = function () {
+                            var pattern1 = /^[a-z0-9_]{8,25}$/i;
+                            var text = document.getElementById("fname");
+                            if (!pattern1.test(text.value)) {
+                                alert("Enter Correct Firstname");
+                                text.focus();
+                            }
+                            else {
+                                document.getElementById("myform").action = "welcome.php";
+                            }
+
+                            var pattern2 = /^.[a-z.]{0,3}/i;
+                            var text2 = document.getElementById("lname");
+                            if (!pattern2.test(text2.value)) {
+                                alert("Enter Correct Lastname");
+                                text.focus();
+                            }
+                            else {
+                                document.getElementById("myform").action = "welcome.php";
+                            }
+
+                            var pattern2 = /^[a-z0-9._-]+@gmail.com$/i;
+                            var text3 = document.getElementById("mail");
+                            if (!pattern2.test(text3.value)) {
+                                alert("Enter Correct Mail ID");
+                                text.focus();
+                            }
+                            else {
+                                document.getElementById("myform").action = "welcome.php";
+                            }
+
+
+                            var phn = document.getElementById("num");
+                            if (phn.value.length == 0 || phn.value.length != 10) {
+                                alert("Enter correct phone number");
+                                text.focus();
+                            }
+                            else {
+                                document.getElementById("myform").action = "welcome.php";
+                            }
+
+
+                            var cit = document.getElementById("city");
+                            if (cit.value.length == 0) {
+                                alert("Please enter city");
+                                exit(0);
+                                // text.focus();
+                            }
+                            else {
+                                document.getElementById("myform").action = "welcome.php";
+                            }
+
+
+                            var con = document.getElementById("coun");
+                            if (con.value.length == 0) {
+                                alert("Please enter country");
+                                text.focus();
+                            }
+                            else {
+                                document.getElementById("myform").action = "welcome.php";
+                            }
+
+                            var dob = document.getElementById("birth");
+                            var age = today.getFullYear() - dob.getFullYear();
+                            document.getElementById("age") = age;
+
+                        };
+                    </script> -->
+
+                </div>
+
+
+                <hr class="featurette-divider" id="contact">
+
+                <!-- Contact Section Begins -->
+
+                <div class="row featurette">
+                    <div class="container-fluid" style="padding-top: 50px!important">
+                        <h1 class="text-center text-capitalize pt-5" style="padding-top: 0px!important">Contact Us</h1>
+                        <hr class="w-25 mx-auto pt-5">
+                    </div>
+
+                </div>
+
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLScRXjsvCLOOaACdrXYhO3h_f6lPYaPPvnmAZs9DZaezaOXt6Q/viewform?embedded=true"
+                    frameborder="0" style="overflow: hidden; height: 1440px;
+    width: 100%;"></iframe>
+
+                <hr class="featurette-divider">
+
+                <!-- /END  OF THE FEATURES -->
+
+        </div>
+
+        <!-- FOOTER -->
+
+        <footer class="container">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>Copyright &copy; 2021, E C H O &middot;</a>
+            </p>
+        </footer>
+    </main>
+</body>
+
+</html>
